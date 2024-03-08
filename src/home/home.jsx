@@ -1,3 +1,4 @@
+import Countername from '../counter/counter';
 import './home.css'
 
 const  Home = ()  =>{
@@ -17,6 +18,7 @@ const  Home = ()  =>{
             <h1 id='service-combo'>i am from chittagong</h1>
             <button onClick={anything} className='clickbtn'>click me</button>
             <button onClick={click2}>click2</button>
+            <Countername></Countername>
             <button onClick={() => {alert('gew gew')}}>click3</button>
             <button onClick={() => click4(2)}>click4</button>
 
