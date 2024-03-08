@@ -1,11 +1,16 @@
-.designH1{
-    background-color: aqua;
-    padding: 10px;
-    border: 1px solid purple;
-    border-radius: 10px;
-    color: purple;
+.designH1 {
+  background-color: aqua;
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  color: purple;
 }
-.clickbtn{
-    background:rgb(159, 179, 184);
-    padding: 15px;
+.clickbtn {
+  background: rgb(159, 179, 184);
+  padding: 15px;
+}
+.nameclass {
+  color: blue;
+  background-color: darksalmon;
+  padding: 15px;
 }
