@@ -13,6 +13,9 @@ function App() {
     <Argument></Argument>
     <Argument></Argument>
     <Argument></Argument>
+    <Students></Students>
+    <Devoloper></Devoloper>
+   
     </>
    
     
@@ -32,5 +35,30 @@ function Argument () {
    )
 
 }
+const  Students = () => {
+  return( 
+   <div className='studentid'>
+    <h3>ki obosta mona</h3>
+    <p>name:</p>
+    <p>age:</p>
+  
+  </div>
+  )
+}
+const Devoloper = () => {
+  const  Devoloperstyle ={
+    marginTop:"10px",
+    backgroundColor:"green",
+    padding :'10px',
+    borderRadius: "10px"
+
+  }
+  return (
+    <div style={Devoloperstyle}>
+      <h3>hello how are you</h3>
+    </div>
+  )
+}
+
 
 export default App
